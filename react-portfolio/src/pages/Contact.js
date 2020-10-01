@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Axios from 'axios'; 
-import From from 'react-bootstrap/Form';
+import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 
 import Hero from '../components/Hero';

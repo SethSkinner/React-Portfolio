@@ -2,7 +2,7 @@ import React from 'react';
 
 import sethskinner from '../assets/images/sethskinner.png';
 import github from '../assets/images/github.png';
-import linkedin from '../assets/images/linkedinn.png';
+import linkedin from '../assets/images/linkedin.png';
 
 import Card from '../components/Card';
 import Container from 'react-bootstrap/Container';
@@ -42,7 +42,7 @@ class Carousel extends React.Component {
                         id: 2,
                         title: 'My LinkedIn!',
                         subTitle: 'sethwskinner',
-                        imgSrc: sethskinner,
+                        imgSrc: linkedin,
                         link: 'https://www.linkedin.com/in/sethwskinner/',
                         selected: false
 

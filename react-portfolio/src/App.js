@@ -76,9 +76,9 @@ render () {
 
         </Navbar>
 
-        <Route path='/' exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} /> } />
-        <Route path='/about' render={() => <Page title={this.state.about.title} />} />
-        <Route path='/contact' render={() => <Page title={this.state.contact.title} />} />
+        <Route path='/' exact render={() => <Home title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} /> } />
+        <Route path='/about' render={() => <About title={this.state.about.title} />} />
+        <Route path='/contact' render={() => <Contact title={this.state.contact.title} />} />
 
         <Footer />
 
