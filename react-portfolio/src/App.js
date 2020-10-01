@@ -5,9 +5,9 @@ import Container from 'react-bootstrap/Container';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import './App.css';
 
-import ContactPage from './pages/Contact';
-import AboutPage from './pages/About';
-import HomePage from './pages/Home';
+import Contact from './pages/Contact';
+import About from './pages/About';
+import Home from './pages/Home';
 import Footer from './components/Footer';
 
 class App extends React.Component {
