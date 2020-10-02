@@ -13,7 +13,7 @@ app.use(cors());
 
 app.use((req, res, next) => {
 
-    res.setHeader('Access-Control-Allow-Origin', '*');//change it to only allow our server
+    res.setHeader('Access-Control-Allow-Origin', '*'); // Change later to only allow our server
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, PATCH, DELETE');
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
     next();
@@ -28,10 +28,10 @@ app.get('/api', (req, res, next) => {
 
 app.post('/api/email', (req, res, next) => {
 
-    sendGrid.setApiKey(process.env.API_KEY);
+    sendGrid.setApiKey('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');
     const msg = {
 
-        to: 'sethwskinner@gmail.com',
+        to: 'sethskinners@gmail.com',
         from: req.body.email,
         subject: 'Website Contact',
         text: req.body.message
