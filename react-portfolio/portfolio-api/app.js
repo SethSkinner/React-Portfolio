@@ -28,7 +28,7 @@ app.get('/api', (req, res, next) => {
 
 app.post('/api/email', (req, res, next) => {
 
-    sendGrid.setApiKey('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');
+    sendGrid.setApiKey('');
     const msg = {
 
         to: 'sethskinners@gmail.com',
