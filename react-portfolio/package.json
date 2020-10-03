@@ -53,5 +53,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "proxy": "process.env.JAWSDB_URL"
+  "proxy": "http://localhost:3030"
 }

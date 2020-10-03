@@ -4,7 +4,7 @@ const cors = require('cors');
 const sendGrid = require('@sendgrid/mail');
 require('dotenv').config();
 
-const PORT = process.env.PORT
+const PORT = process.env.PORT || 3030;
 
 
 const app = express();
@@ -63,4 +63,4 @@ app.post('/api/email', (req, res, next) => {
 
 });
 
-app.listen(process.env.PORT);
+app.listen(PORT);
