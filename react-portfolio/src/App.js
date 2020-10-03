@@ -56,7 +56,7 @@ render () {
 
     <Router>
 
-      <Container className='p-0' fluid={true}>
+      <Container className='p-0 wrapper' fluid={true}>
 
         <Navbar className='border-bottom' bg='transparent' expand='lg'>
 
