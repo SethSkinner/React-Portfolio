@@ -1,8 +1,8 @@
 import React from 'react';
 
-import sethskinner from '../assets/images/sethskinner.png';
-import github from '../assets/images/github.png';
-import linkedin from '../assets/images/linkedin.png';
+import travelplanner from '../assets/images/travelplanner.png';
+import personalfestival from '../assets/images/personalfestival.png';
+import employeedirectory from '../assets/images/employeedirectory.png';
 
 import Card from '../components/Card';
 import Container from 'react-bootstrap/Container';
@@ -20,30 +20,30 @@ class Carousel extends React.Component {
                     {
 
                         id: 0,
-                        title: 'Seth Skinner',
-                        subTitle: 'Full-Stack Developer',
-                        imgSrc: sethskinner,
-                        link: '',
+                        title: 'Travel-Planner',
+                        subTitle: 'App to plan you\'re travel',
+                        imgSrc: travelplanner,
+                        link: 'https://sethskinner.github.io/Travel-Planner/',
                         selected: false
 
                     },
                     {
 
                         id: 1,
-                        title: 'My GitHub!',
-                        subTitle: '@SethSkinner',
-                        imgSrc: github,
-                        link: 'https://github.com/SethSkinner',
+                        title: 'Personal-Festival',
+                        subTitle: 'App to make a personal festival',
+                        imgSrc: personalfestival,
+                        link: 'https://serene-sands-67688.herokuapp.com/',
                         selected: false
 
                     },
                     {
 
                         id: 2,
-                        title: 'My LinkedIn!',
-                        subTitle: 'sethwskinner',
-                        imgSrc: linkedin,
-                        link: 'https://www.linkedin.com/in/sethwskinner/',
+                        title: 'Employee-Directory',
+                        subTitle: 'App to be able to sort and search employees',
+                        imgSrc: employeedirectory,
+                        link: 'https://sethskinner.github.io/Employee-Directory/',
                         selected: false
 
                     },

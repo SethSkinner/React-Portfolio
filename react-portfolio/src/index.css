@@ -5,6 +5,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(./assets/images/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+}
+
+img {
+      height: 200px;
+      width: 200px;
+
 }
 
 code {
@@ -52,4 +62,36 @@ code {
 .err-msg {
   color: #EE6352;
   padding: 10px 15px;
+}
+
+
+  footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 20px;
+  width: 100%;
+  color: black; 
+  background: transparent;
+  font-size:1.5em;
+  text-align: center;
+  line-height:50px;
+  }
+
+.fa, .fab {
+     padding-right: 7px;
+     color: black;
+}
+
+.g-card-image {
+  height: 400px;
+  width: 400px;
+}
+
+.picofme {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height:300px;
 }
